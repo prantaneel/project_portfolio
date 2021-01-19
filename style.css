@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Google-Sans;
+    src: url(fonts/Product-Sans-Regular.ttf);
+}
+@font-face{
+    font-family: roboto-1;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+*{
+    color: #FFF;
+    background: #161625 !important;
+    outline: none;
+    font-family: roboto-1;
+}
+
+.navbar-1{
+    margin-bottom: 110px;
+    margin-top:0px !important;
+
+}
+
+
+.navbar-2{
+    margin-top: 230px;
+    margin-bottom: 0px !important;
+}
+#left-nav{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 12fr 1fr;
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 1.1rem;
+    width: 1490px !important;
+    
+    
+}
+#right-nav{
+    list-style-type: none;
+}
+
+.navr{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: -20px !important;
+
+}
+li a{
+    padding-right: 30px;
+    display: block;
+    text-decoration: none;
+    color: white !important;
+
+
+}
+a:hover{
+    text-decoration: none !important;
+    color: rgb(192, 163, 163) !important;
+}
+#foot-nav{
+    display: grid;
+    grid-template-columns: 27fr 1fr 1fr 1fr;
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: -220px;
+    width: 1490px !important;
+}
+.navr-2{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+
+}
+#last{
+    margin-right: -20px;
+}
+#location{
+    margin-right: auto;
+    color: #b8b8f1d7;
+    font-size: 1.4rem;
+    font-family: Google-Sans;
+}
+
+.top{
+    font-size: 1.8rem;
+    font-family: Google-Sans;
+    padding-bottom:20px !important;
+}
+
+.middle-hero{
+    font-size: 4.5rem !important;
+    margin-bottom: 5px !important;
+    margin-left: auto;
+    font-family: Google-Sans;
+}
+.tagline-content{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: roboto-1;
+}
+.content-right img{
+    margin-top: -100px;
+    height: 600px;
+    width: 600px;
+}
+
+.contentmain{
+    display: grid;
+    grid-template-columns: 20fr 22fr;
+    grid-template-rows: 1fr;
+    width: 1490px !important;
+}
+
+
+.content-right{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    grid-row: 1/2;
+    
+}
+.content-left{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: auto;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.btn button{
+    background-color: #357DED !important;
+    border: none ;
+    color: white ;
+    padding: 10px 20px 10px 20px ;
+    text-align: center ;
+    text-decoration: none ;
+    display: inline-block ;
+    margin: 4px 2px ;
+    cursor: pointer ;
+    border-radius: 27px ;
+    box-shadow: 2px 3px #0000002c;
+    transform: scale(1.4);
+    margin-left: 20px;
+    font-family: Google-Sans;
+}
+.name{
+    align-self: center !important;
+    text-align: center !important;
+}
+#contact-btn{
+    background-color: #357DED !important;
+    border: none ;
+    color: white ;
+    padding: 10px 20px ;
+    text-align: center;
+    text-decoration: none ;
+    display: inline-block ;
+    margin-top: -5px;
+    cursor: pointer ;
+    width:100px;
+    font-family: Google-Sans;
+    border-radius: 27px ;
+    box-shadow: 2px 3px #0000002c;
+    margin-left: 20px;
+    font-size: 1.02rem;
+    
+}
+.btn button:hover{
+    background-color: #1a6aeb !important;
+}
+#contact-btn:hover{
+    background-color: #1a6aeb !important;
+    
+}
+#quora{
+    transform: scale(1.2) !important;
+    margin-top: -3px !important;
+}
+#foot-nav img{
+    opacity: 0.3 !important;
+    transform: scale(1);
+    align-content: center !important;
+}
+#foot-nav img:hover{
+    opacity: 0.7 !important;
+}
+#location{
+    transform: scale(1.1);
+}
+.active{
+    background-color: white !important;
+    border: none ;
+    color: rgb(192, 163, 163) !important;
+    padding: 5px 20px 10px 20px !important;
+    display: inline-block ;
+    margin-top: -5px;
+    height:15px !important;
+    border-radius: 27px ;
+    box-shadow: 2px 3px #0000002c;
+    margin-left: 0px;
+    margin-right: 25px;
+    fill-opacity: 0.7 !important;
+    font-family: Google-Sans !important;
+    text-align: center !important;
+}
+.active:hover{
+    background-color:rgb(236, 236, 236) !important;
+    
+}
