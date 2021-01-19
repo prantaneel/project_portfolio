@@ -1,16 +1,16 @@
 @font-face {
     font-family: Google-Sans;
     font-size: 1.03rem !important;
-    src: url(fonts/Product-Sans-Regular.ttf);
+    src: url(Product-Sans-Regular.ttf);
 }
 @font-face{
     font-family: roboto-1;
-    src: url(fonts/Roboto-Regular.ttf);
+    src: url(Roboto-Regular.ttf);
 }
 
 @font-face{
     font-family: roboto-2;
-    src: url(fonts/Roboto-Medium.ttf);
+    src: url(Roboto-Medium.ttf);
 }
 *{
     color: #FFF;
