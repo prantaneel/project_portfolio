@@ -179,7 +179,7 @@ a:hover{
     
 }
 #github{
-    transform: scale(1.2) !important;
+    transform: scale(1) !important;
     margin-top: -3px !important;
 }
 #foot-nav img{
