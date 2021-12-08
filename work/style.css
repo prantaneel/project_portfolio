@@ -225,22 +225,22 @@ a:hover{
     background-color:rgb(236, 236, 236) !important;
 }
 .work1{
-    height: 281px;
-    width: 500px;
+    max-width: 500px !important;
+    height: auto !important;
 }
 .work2{
-    height: 281px !important;
-    width: 500px !important;
+    height: auto !important;
+    max-width: 500px !important;
     padding-right: 30px !important;
 }
 .work3{
-    height: 450px !important;
-    width: 500px !important;
+    height: auto !important;
+    max-width: 500px !important;
     padding-right: 30px !important;
 }
 .work4{
-    height: 403.4px !important;
-    width: 500px !important;
+    height: auto !important;
+    max-width: 500px !important;
     padding-right: 30px !important;
 
 }
