@@ -245,3 +245,12 @@ a:hover{
     padding-right: 30px !important;
 
 }
+.special-info {
+  margin: auto !important;
+  text-align: center;
+  background-color: #7070a075 !important;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
