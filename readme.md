@@ -1,3 +1,3 @@
 Preview Page
 
-https://soulado.github.com/project_portfoilio/index.html
+https://soulado.github.io/project_portfoilio
