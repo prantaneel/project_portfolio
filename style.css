@@ -11,6 +11,7 @@
     background: #161625 !important;
     outline: none;
     font-family: roboto-1;
+    max-width: 1024px;
 }
 
 .navbar-1{
